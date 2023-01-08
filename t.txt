@@ -1,0 +1,29 @@
+QR code is the quick response code
+we are using google chart api which stores about 4000 alphanumeric characters of arbitrary text
+text may be anything i.e. telephone number or mobile number or any text or a short story
+
+advantages-->>> they are quick and store more information and use it any time and any where
+
+How to read qr code --->>> we need qr code scanner
+
+Use of API for generating the qr code.---->>>>>
+URL : https://chart.googleapi.com/chart7-->for google api
+
+we require some query parameteres o that we ahve to add in the URL
+
+parameteres                                                info
+
+cht=qr                                                    required
+chs=<width>*<height>  (for determining the size of qr)    required
+chl=data   (data to be encoded)                           required
+(binary bits,alphanumeric characters etc;)                           
+
+
+basic syntax-->> https://chart.googleapis.com/chart?cht=qr&chs=150*150&chl=Hello
+
+1)basic onclick and alert using javascript by using script in it
+2)Accessing elements using javascript
+
+
+https://chart.googleapis.com/chart?chf=bg,s,65432100&cht=qr&chs=150*150&chl=Hello
+//this url is used for the removing the outer white portion of the qr code i.e. making the qr code transparent

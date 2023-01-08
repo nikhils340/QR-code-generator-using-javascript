@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR code generator</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // alert("Hello World");
+        function showit(){
+            // var myalert=document.getElementById("atext").innerHTML;
+            // alert("Hello World");
+            // var myalert=document.getElementById("atext").value;  //for select
+            // var myalert=document.getElementById("atext").innerHTML;  //for paragraph
+            // var myalert=document.getElementById("atext").src;    //for image .src is used
+            // document.getElementById("atext").innerHTML="changed text";  //for changing the text
+            document.getElementById("atext").src="https://www.google.co.in/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"  //for appearing of image after clicking
+            alert(myalert);
+        }
+    </script>
+    <!-- <input type="text" id="atext"> -->
+    <!-- <textarea name="" id="atext" cols="30" rows="10"></textarea> -->
+    <!-- <p id="atext">Hello World</p>  -->
+    <!-- //same for div tag -->
+
+    <!-- use f select tag -->
+    <!-- <select name="select" id="atext">
+        <option value="one">one</option>
+        <option value="two">two</option>
+    </select> -->
+
+    <!-- add image and return it's url as follows -->
+    <!-- <img src="https://en.wikipedia.org/wiki/File:Google_2015_logo.svg" alt="" id="atext"> -->
+    <img src="" alt="" id="atext">
+
+    <input type="submit" value="Clich Here" onclick="showit()">
+</body>
+</html>
